@@ -1,0 +1,17 @@
+.searchbar-input {
+  float: left;
+}
+
+.searchbar-button {
+  float: left;
+
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  color: white;
+  background-color: orange;
+
+  cursor: pointer;
+}

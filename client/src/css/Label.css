@@ -1,0 +1,26 @@
+.custom-label {
+  background-color: lightgrey;
+  padding: 5px 15px;
+
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.custom-label p {
+}
+
+.custom-label span {
+  color: #0c2f5c;
+}
+
+.custom-label > .custom-button {
+  background-color: inherit;
+  border: none;
+
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.custom-label.green {
+  background-color: yellowgreen;
+}

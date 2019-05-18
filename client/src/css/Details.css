@@ -1,0 +1,59 @@
+.details .info {
+  padding-top: 2rem;
+
+  line-height: 3rem;
+  color: grey;
+}
+
+.details .info .city {
+  color: #163059;
+  margin-right: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+
+  display: inline;
+}
+
+.details .info .price {
+  color: #ff6d00;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.details .attributes {
+  margin: 2rem auto;
+}
+
+.details .attributes .attribute {
+  font-size: 1.5rem;
+  color: gray;
+  margin-right: 2rem;
+  font-weight: bold;
+}
+
+.details .attributes .value {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.details .description {
+  color: grey;
+  font-size: 1.5rem;
+  margin-top: 10rem;
+}
+
+.details .box {
+  border-top: 1px solid black;
+  margin: 2rem auto;
+
+  padding: 2rem;
+}
+
+.details h2 {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  color: black;
+  font-size: 24px;
+  font-weight: normal;
+}

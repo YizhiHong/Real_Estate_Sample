@@ -1,0 +1,18 @@
+
+.infoImg{
+   margin-top:-20px;
+   margin-bottom:2rem;
+
+}
+
+
+#infoLeft{
+    margin-top:2rem;
+    margin-left:4rem;
+//    border-right:0.2rem solid  black;
+}
+
+#infoLeft li{
+    font-size:2rem;
+    font-weight: bold;
+}

@@ -1,0 +1,85 @@
+.house-item {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  border-top: 1px solid;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+}
+
+.house-item:last-of-type {
+  border-bottom: 1px solid;
+}
+
+.house-item > div {
+}
+
+.house-item > div:nth-of-type(1) {
+  flex: 3;
+  padding: 1rem;
+}
+
+.house-item > div:nth-of-type(2) {
+  flex: 3;
+}
+
+.house-item > div:last-of-type {
+  flex: 1;
+}
+
+.house-item img {
+  width: 30rem;
+  height: 20rem;
+}
+
+.house-item > div:last-of-type > button {
+  display: block;
+  margin: 1rem auto;
+}
+
+.house-item .info {
+  padding: 1rem;
+}
+
+.house-item .info div {
+  margin: 1rem auto;
+}
+
+.house-item .info .price {
+  color: #ff6d00;
+  font-size: 2rem;
+}
+
+.house-item .info .type {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: gray;
+}
+
+.house-item .info .address {
+  font-size: 1.2rem;
+  color: #2196f3;
+}
+
+.house-item .labels {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2rem auto;
+}
+
+.house-item .like {
+  background-color: white;
+  background-image: url('../images/likeBefore.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  border: none;
+
+  height: 30px;
+  width: 35px;
+}
+
+.house-item .like.confirmed {
+  background-image: url('../images/likeAfter.png');
+}

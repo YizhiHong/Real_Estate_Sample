@@ -1,0 +1,1 @@
+module.exports={mLab:'mongodb://111:111@ds113566.mlab.com:13566/users'};
